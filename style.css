@@ -1,0 +1,204 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #1684C7;
+    width: 1200px;
+    padding-bottom: -10px;
+    padding-top: -30px;
+
+    border-radius: 15px;
+    margin-left: 22%;
+    margin-top: 30px;
+    font-family: Arial;
+  }
+  body{
+    width: 800px;
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 40px ;
+    text-decoration: none;
+    margin-top: 25px;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    padding-top: -10px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#EE3324;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #logo{
+    float: left;
+    width: 210px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#button1{
+    border-radius: 2px;
+}
+#search1{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 2px;
+    transform: skewY(0deg);
+    border:none;
+}
+
+
+#searchbar {
+        float: right;
+        padding-top: 5px;
+        margin-right: 50px;
+        margin-top: 25px;
+        border-color: none;
+}
+#button1{
+    border: none;
+}
+#headr{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50%;
+    margin-top: 70px;
+    margin-bottom: 2%;
+    font-size: 2em;
+    color: #14658E;
+
+}
+.container1{
+    width: 240px;
+    border:none;
+    
+    margin-left: 460px;
+    
+    
+}
+.isaac{
+    width: 280px;
+    border:2px solid #127B89;
+    border-radius: 15%;
+    padding: 5px;
+}
+aside{
+    width:500px;
+    border: 0.5px solid #E1F8F9;
+    float:right;
+    padding: 10px;
+    margin-right: 16%;
+    margin-top: -350px;
+    background-color:rgba(172, 222, 235, 0.096);
+    border-radius: 8px;
+}
+.learn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+
+}
+.text1{
+    line-height: 1.8em;
+    font-family: sans-serif;
+}
+.text1 b{
+    color: #2C7C67;
+    font-style: oblique;
+}
+.number{
+    font-size: 1.2em;
+}
+
+
+.fa {
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instgram{
+      background: tomato;
+      color: white;
+  }
+  footer{
+      background-color: #1684C7;
+      padding: 30px;
+      margin-top: 20%;
+  }
+  #footer p{
+text-align: center;
+margin-left: -40px;
+  }
+  
