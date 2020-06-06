@@ -193,11 +193,101 @@ aside{
   }
   footer{
       background-color: #1684C7;
-      padding: 30px;
+      padding: 10px;
       margin-top: 20%;
+      border-radius: 10px;
   }
-  #footer p{
-text-align: center;
-margin-left: -40px;
+  .foot{
+    font-weight: 2em;
+    text-align: center;
   }
+  .next1{
+    margin-top: 20px;
+    margin-left: 50%;
+    
+  }
+  .next1 a{
+    color: white;
+    text-align: center;
+    padding-left: -10px;
+  }
+  .previous{
+    background-color: #1684C7;
+    margin-right: 30px;
+    padding-right: 90px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    border-radius: 10px;
+    text-align: right;
   
+  
+  }
+  .next{
+      background-color: #1684C7;
+      margin-right: 30px;
+      padding-right: 90px;
+      text-decoration: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 1.8em;
+      border-radius: 10px;
+  }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+ 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:  #1684C7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #5ACEE9;
+}
+
+/* Add a background color and some padding around the form */
+.container3 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-right: 90px;
+  padding-left: 10px;
+  width: 55%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 10px;;
+}
+#connect {
+  text-align: center;
+  margin-left: 20%;
+ border-style: none;
+  font-weight: 2em;
+  margin-bottom: -60px;
+}
+.name{
+  margin-left:20px;
+  padding-left: 5px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+  
+
+    
+
+    
+
+
