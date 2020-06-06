@@ -5,67 +5,18 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <title>eyz' site</title>
-       <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" 
-        rel="stylesheet" type="text/css">--> 
+        <link href="https://fonts.googleapis.com/css?family=Lobster" 
+        rel="stylesheet" type="text/css">
         <style>
             .red-text{
                 color:red;
-                font-family: monospace;
-            }
-            h2{
-                font-family: lobster,monospace;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
             p{
                 font-size: 16px;
-              font-family:lobster;
+              font-family:monospace
             }
-            .smaller-image{
-                width: 100px;
-        
-            }
-            .thick-green-border{
-                border-color:green;
-                border-width: 10px;
-                border-style: solid;
-                border-radius: 50%;
-            }
-            .silver-background{
-                background-color: silver;
-            }
-        .cat-photo-form{
-            background-color: green;
-        }
-        .injected-text{
-            margin-bottom: -25px;
-            text-align:center;
-        }
-        .box{
-            border-style: solid;
-            border-color: black;
-            border-width: 5px;
-            text-align: center;
-        }
-        .yellow-box{
-            background-color: yellow;
-            padding: 10px;
-        }
-        .red-box{
-            background-color:crimson;
-            color: #fff;
-           padding: 1.5em;
-        
-        }
-        .blue-box{
-            background-color: blue;
-            color: #fff;
-            margin: 40px 20px 20px 40px;
-            padding: 40px 20px 20px 40px;
-         
-        }
-        body{
-            background-color: black;
-        }
-    
         </style>
     </head>
     <body>
@@ -80,12 +31,9 @@
     </ol>
     <h2 class="red-text">Hello World</h2> <!-- this is a comment-->
     <main>
-        <form id="cat-photo-form" action="/submit-cat-photo">
-        <h3 id="cat-photo-app">cat photo app</h3>
-        </form>
         <p class="red-text">View more cat photos <a href="#" target ="_blank">cat photos</a>
         </p>
-        <img class= "smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cat"/> 
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cat"/> 
 
  <p>3 things that cats like</p>
   <ul>
@@ -110,6 +58,8 @@
     <input type="text" required>
     <button type="submit">submit</button>
 
+
+
     <label for="indoor" >
         <input for="indoor" type="radio" name="indoor-outdoor"/>
     </label>
@@ -126,16 +76,6 @@
     <label for="fair">
         <input id="fair" type="checkbox" name="personality"> fair
     </label>
-
-    <div class="silver-background"> 
-
-    </div>
-    <h5 class="injected-text">Margin</h5>
-
-    <div class="box yellow-box">
-        <h5 class="box red-box">padding</h5>
-        <h5 class="box blue-box">padding</h5>
-    </div>
 </main>
 
     <footer id="footer">
