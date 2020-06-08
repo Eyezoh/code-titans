@@ -119,6 +119,11 @@
     color: #14658E;
 
 }
+.headr-home{
+margin-left: 300px;
+margin-top: 80px;
+color: #14658E;
+}
 .container2{
   
     border:none;
@@ -165,8 +170,16 @@ aside{
 .number{
     font-size: 0.8em;
 }
-
-
+/*home page image*/
+.home{
+  margin-left: 250px;
+}
+.about-us{
+  width:900px;
+  margin-left: 250px;
+  margin-top: -100px;
+  line-height: 1.2em;
+}
 .fa {
     padding: 20px;
     padding-top: 20px;
@@ -214,7 +227,7 @@ aside{
     text-align: center;
   }
   .next1{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 50%;
     
   }
@@ -222,6 +235,8 @@ aside{
     color:#1684C7;
     text-align: center;
     padding-left: -10px;
+    margin-top: 30%;
+   
   }
   .previous{
 
@@ -232,6 +247,7 @@ aside{
     font-size: 1.8em;
     border-radius: 10px;
     text-align: justify;
+    margin-top: 100px;
   
   
   }
@@ -243,6 +259,7 @@ aside{
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 1.8em;
       border-radius: 10px;
+      margin-top: 40%;
   }
   #words{
     
@@ -308,6 +325,35 @@ input[type=submit]:hover {
   justify-content: space-evenly;
   color: white;
   }
+  /* portfolio body*/
+.portabout{
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+#background{
+ padding: 10px;
+ border: 1px solid #1684c7;
+ border-radius: 25px;
+ box-shadow: 5px 5px 10px -1px  #1684c7;
+}
+.portsmallest{
+  padding: 20px;
+  border: 1px solid #1684c7;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px -1px  #1684c7;
+}
+
+
+.portinfo{
+  margin: 0px 20px;
+}
+#mission{
+  margin-bottom: 10px;
+}
+#vision{
+  margin-top: 10px;
+}
 
 .footersection a{
 color: white;
@@ -327,6 +373,7 @@ font-weight: 2em;
   /* Your adjusted CSS goes here */
 }
   
+
 
     
 
